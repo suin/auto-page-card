@@ -36,6 +36,14 @@ Or using bun:
 bun add @suin/auto-page-card
 ```
 
+## ⚠️ Important: Required Component
+
+**This package transforms markdown links into `<PageCard>` components by default.** You'll need to provide the actual PageCard component in your MDX setup. We strongly recommend using **[@suin/fumadocs-page-card](https://github.com/suin/fumadocs-page-card)** - a React component that renders beautiful page cards with automatic metadata extraction from MDX frontmatter.
+
+```bash
+npm install @suin/fumadocs-page-card
+```
+
 ## 🎯 Usage
 
 ### Basic Usage
