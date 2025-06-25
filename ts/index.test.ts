@@ -19,7 +19,7 @@ test("should transform a paragraph with only a local MDX link to a PageCard comp
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "./example.mdx",
             },
@@ -49,7 +49,7 @@ test("should transform a paragraph with only a local MDX link using relative pat
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "../docs/page.mdx",
             },
@@ -246,7 +246,7 @@ test("should transform multiple paragraphs with local MDX links", () => {
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "./page1.mdx",
             },
@@ -267,7 +267,7 @@ test("should transform multiple paragraphs with local MDX links", () => {
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "./page2.mdx",
             },
@@ -337,7 +337,7 @@ test("should handle links with titles", () => {
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "./example.mdx",
             },
@@ -369,7 +369,7 @@ test("should handle complex link text", () => {
         {
           "attributes": [
             {
-              "name": "path",
+              "name": "href",
               "type": "mdxJsxAttribute",
               "value": "./example.mdx",
             },

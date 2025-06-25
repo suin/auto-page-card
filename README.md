@@ -12,6 +12,7 @@
 ## 🚀 Features
 
 - **Automatic Transformation**: Converts local MDX links to page card components automatically
+- **Fumadocs Integration**: Fully compatible with [@suin/fumadocs-page-card](https://github.com/suin/fumadocs-page-card) out of the box
 - **Smart Detection**: Only transforms links that point to local `.mdx` files
 - **Customizable**: Supports custom component names and attributes
 - **TypeScript Ready**: Full TypeScript support with comprehensive type definitions
@@ -130,7 +131,7 @@ By default, the plugin transforms links like this:
 **Output:**
 
 ```jsx
-<PageCard path="./getting-started.mdx" />
+<PageCard href="./getting-started.mdx" />
 ```
 
 ## 📝 Examples
@@ -152,9 +153,9 @@ By default, the plugin transforms links like this:
 ```jsx
 <h1>Documentation</h1>
 
-<PageCard path="./installation.mdx" />
+<PageCard href="./installation.mdx" />
 
-<PageCard path="../docs/api.mdx" />
+<PageCard href="../docs/api.mdx" />
 ```
 
 ### Example 2: Custom Component with Rich Attributes

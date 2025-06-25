@@ -68,7 +68,7 @@ type Attributes = Readonly<Record<string, null | boolean | number | string>>;
 const defaultElement = {
   name: "PageCard",
   attributes({ url }) {
-    return { path: url };
+    return { href: url };
   },
 } satisfies Element;
 
